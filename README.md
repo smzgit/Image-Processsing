@@ -19,22 +19,22 @@ ________________________________________________________________________________
 ![](ImageProcessing/images/negative_kid.jpg)
 
 ### 3.	Reverse the negative image into ordinal image:
-        Similar operation of turning image into negative can perfumed,
-        since negative image is nothing but a counter-part of the original :
-        R= 255-R
+        Similar operation of turning image into negative can be perfomed,
+        since a negative image is nothing but a counter-part of the original :
+        R=255-R
         G=255-G
         B=255-B
-        and now update pixel with this RGB value
+        and now update pixels with this RGB value
 ![](ImageProcessing/images/buddha.jfif)
 ![](ImageProcessing/images/negative_reverse.jpg)
 
 ### 4.	Grainy texture in an image :
-        Grainy texture actually depicts minute distortions in an image, to emnhace
+        Grainy texture actually depicts minute distortions in an image, to enhance
         the effect first convert every pixel into black and white and add random
         noise using any   Random value between 0-255
         num = any integer between 0-255
         neautral_value = (R+G+B)/3
-        update the pixel with RGB of :- neautral_value+num
+        update the pixels with RGB of :- neautral_value + num
 ![](ImageProcessing/images/grainy_kid.jpg)
 
 
