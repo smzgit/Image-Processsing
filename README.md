@@ -2,7 +2,7 @@
 Image processing is a method to convert an image into digital form and perform some operations on it, in order to get an enhanced image or to extract some useful information from it. It is a type of signal dispensation in which input is an image, like video frame or photograph and output, may be image or characteristics associated with that image. Usually, Image Processing system includes treating images as two-dimensional signals while applying already set signal processing methods to them. Every image is a made up of many pixels, each such pixel has RGB(red, green & blue) components whose value lies between 0-255, using this crucial data many sub-operations can eb performed over the image.
 In this project, PIL(PILLOW) module of python has been used to perform many operations like turning image into black and white, reversing the negative image into original image and many others as discussed below:
 
-Orginal Image : ![](ImageProcessing/images/Kid.jpg)
+Original Image : ![](ImageProcessing/images/Kid.jpg)
 ![](ImageProcessing/images/red.jpg)
 _______________________________________________________________________________________________________________________________________________________________________________
 ### 1.	Turning image into grayscale:
@@ -19,7 +19,7 @@ ________________________________________________________________________________
         and now update all pixels with this RGB values
 ![](ImageProcessing/images/negative_kid.jpg)
 
-### 3.	Reverse the negative image into ordinal image:
+### 3.	Reverse the negative image into original image:
         Similar operation of turning image into negative can be perfomed here,
         since a negative image is nothing but a counter-part of the original :
         R=255-R
